@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Pizza from './Components/Pizza/Pizza';
+import pizzaData from './data';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {
+            pizzaData.map((pizza, index) =>  
+              <Pizza key={index} pizza={pizza} ></Pizza>
+            )
+        }
       </header>
     </div>
   );
