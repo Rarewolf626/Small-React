@@ -7,6 +7,7 @@
     margin-right: 1rem;
     border-radius: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .single_pizza:hover {
