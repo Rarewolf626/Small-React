@@ -4,11 +4,13 @@ import pizzaData from './data';
 function App() {
   return (
     <div className="App">
-        {
-            pizzaData.map((pizza, index) =>  
-              <Pizza key={index} pizza={pizza} ></Pizza>
-            )
-        }
+      <div className="pizza-container">
+          {
+              pizzaData.map((pizza, index) =>  
+                <Pizza key={index} pizza={pizza} ></Pizza>
+              )
+          }
+      </div>
     </div>
   );
 }

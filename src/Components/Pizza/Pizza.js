@@ -1,8 +1,8 @@
 function Pizza(props) {
     return (
         <div>
-            {props.pizza.name}
-            <img src={props.pizza.photoName}/>
+            {props.pizza.name} 
+            <img src= {require(`../../../public/pizzas/${props.pizza.photoName}`)}/>
         </div>
     );
 }

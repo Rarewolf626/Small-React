@@ -1,5 +1,16 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,4,49,1) 40%, rgba(1,1,57,1) 73%);
+}
+
 .App {
   text-align: center;
+  width: 95%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .App-logo {
@@ -35,4 +46,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.pizza-container{
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
