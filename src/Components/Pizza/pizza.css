@@ -41,4 +41,9 @@
 .pizza_img {
     object-fit: contain;
     width: 20rem;
+    border-radius: 5px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #2b1cff, rgb(255, 88, 88)) border-box;
+    border-radius: 5px;
+    border: 2px solid transparent;
 }
