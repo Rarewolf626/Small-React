@@ -8,10 +8,11 @@
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
+    background: rgba(4, 0, 74, 0.381);
 }
 
 .single_pizza:hover {
-    background: rgba(4, 0, 74, 0.508);
+    background: rgba(4, 0, 74, 0.721);
 }
 
 .pizza_info {
@@ -27,10 +28,13 @@
 .pizza_title {
     font-weight: bold;
     font-size: 1.8rem;
+    color: hsl(46, 100%, 72%);
 }
 
 .pizza_subtitle {
     width: 15rem;
+    font-style: italic;
+    color: rgb(235, 235, 235);
 }
 
 .pizza_remaining {
@@ -42,8 +46,11 @@
     object-fit: contain;
     width: 20rem;
     border-radius: 5px;
-    background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, #2b1cff, rgb(255, 88, 88)) border-box;
+    background:linear-gradient(white, white) padding-box, linear-gradient(to right, #2b1cffa8, rgb(255 88 88 / 53%)) border-box; 
     border-radius: 5px;
     border: 2px solid transparent;
+}
+
+.sold-out{
+    filter: brightness(0.75);
 }
